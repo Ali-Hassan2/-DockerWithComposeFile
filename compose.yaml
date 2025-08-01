@@ -1,6 +1,7 @@
 services:
   img:
     build: .
+    image: my-custom-image-name
     container_name: my-containe
     ports:
       - 4002:4002
